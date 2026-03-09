@@ -124,7 +124,7 @@ jobs:
             release/${{ needs.prepare.outputs.appimage_name }}.zsync
 
       - name: Upload AppImage
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: release-appimage
           path: |
@@ -132,7 +132,7 @@ jobs:
             release/${{ needs.prepare.outputs.appimage_name }}.sha256
 
       - name: Upload zsync
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: release-zsync
           path: |
