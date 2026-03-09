@@ -117,7 +117,7 @@ jobs:
             > "${appimage_name}.zsync.sha256"
 
       - name: Attest build provenance
-        uses: actions/attest-build-provenance@v2
+        uses: actions/attest-build-provenance@v4
         with:
           subject-path: |
             release/${{ needs.prepare.outputs.appimage_name }}
