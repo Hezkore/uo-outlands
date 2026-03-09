@@ -78,3 +78,6 @@ cd uo-outlands-appimage
 
 The host system needs `tar`. The build uses the bundled `zenity` runtime when possible and falls back to terminal output when no GUI dialog can be shown.
 
+## Disclaimer
+
+This project is not affiliated with, endorsed by, or associated with Ultima Online or the UO Outlands private server in any way.
